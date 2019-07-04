@@ -8,4 +8,36 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  background-image: url(../img/bgtile.png);
+  background-repeat: repeat-x;
+
+}
+li {
+  width: 15%;
+  display: inline;
+  padding:5px;
+
+}
+/*.header {
+
+  height: 40%;
+}*/
+.insta{
+  display:block;
+  position: left;
+
+
+}
+#instagram{
+  background-image: url(../img/brand.png)
+  /*background-repeat:no-repeat;*/
+  padding: 30px;
+  display:inline-block;
+  position: relative;
+  }
+#logIn {
+  display: inline-block;
+  postion: relative;
+  width: 15%;
+  background-image: url(../img/home.png);
 }
